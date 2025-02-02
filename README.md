@@ -1,6 +1,7 @@
 # VIM
 Getting started with VIM
 
+[Cheat sheet](https://vim.rtorr.com/)
 ## Context
 
 We use VIM to quickly edit files on the fly on servers. On main machine we use VScode with VIM Motion (vscodevim extensio)
@@ -8,8 +9,13 @@ We use VIM to quickly edit files on the fly on servers. On main machine we use V
 ## Shortcuts
 
 operator number  motion 
-```Vim
+```Bash
 h,j,k,l #left,down,up,right
+H,M,L # move to top, middle bottom of the screen
+ctrl+e,y # move screen down up 1 line without moving cursor 
+ctrl+f,b # move 1 screen dow,up
+ctrl+d,u # move 1/2 screen dow,up
+w,b # move to next,previous words
 :q # to quite, ! to dsicard changes
 :w <Name> # to write, specify name to save as
 u # undo
