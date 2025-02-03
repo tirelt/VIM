@@ -15,6 +15,7 @@ H,M,L # move to top, middle bottom of the screen
 ctrl+e,y # move screen down up 1 line without moving cursor 
 ctrl+f,b # move 1 screen dow,up
 ctrl+d,u # move 1/2 screen dow,up
+gd #  go to first occurance (prob definition)
 w,b # move to next,previous words
 :q # to quite, ! to dsicard changes
 :w <Name> # to write, specify name to save as
