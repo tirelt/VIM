@@ -2,9 +2,10 @@
 Getting started with VIM
 
 [Cheat sheet](https://vim.rtorr.com/)
+
 ## Context
 
-We use VIM to quickly edit files on the fly on servers. On main machine we use VScode with VIM Motion (vscodevim extensio)
+We use VIM to quickly edit files on the fly. Our main IDE is VScode with VIM Motion (with "VSCode Neovin" extension). We keep our config ultra minimalist as it is not our main tool.
 
 ## Shortcuts
 
@@ -72,6 +73,7 @@ ctrl+w+HJKL # to move the windows
 ctrl+w+hjkl # to move between windows
 tabnew # to make a new tab
 tabonly # clsoe everything but current tab
+closenew
 ctrl+w+T # to move a window to a new tab
 ```
 
