@@ -57,5 +57,21 @@ o,O # to insert a line below,above the cursor
 y #to copy as an operator, yy line, yw one word, y in virtual selection to copy selction
 :set # to set opctopns, e.g. 'ic' (ignore casre), 'is' partial match, 'hls' tpo highlight
 Ctrl+e # to show possible command, Tab to complete
-
 ```
+
+## Comand mode `:`
+```
+! # for external command
+find <file_name> # find and open a file, with a * for imcomplete and tab to move through the options
+bw # back to working directory
+ls # list of file in the buffer
+b <name> # to swith to an ope file
+edit <folder_name>, t for new tab (gT/t change tab), v for split screen
+ctrl+w+s/v # create vertical / horizontal split,
+ctrl+w+HJKL # to move the windows
+ctrl+w+hjkl # to move between windows
+tabnew # to make a new tab
+tabonly # clsoe everything but current tab
+ctrl+w+T # to move a window to a new tab
+```
+
