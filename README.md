@@ -5,7 +5,19 @@ Getting started with VIM
 
 ## Context
 
-We use VIM to quickly edit files on the fly. Our main IDE is VScode with VIM Motion (with "VSCode Neovin" extension). We keep our config ultra minimalist as it is not our main tool.
+We use VIM to quickly edit files on the fly. Our main IDE is VScode with VIM Motion. We keep our config ultra minimalist as it is not our main tool.
+
+## Install 
+
+### VIM
+Should be installed be defualt 
+```Bash
+sudo apt install vim # on linux
+brew install vim # on mac
+```
+### VScode 
+We install [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) emulation plugin which is good enough to use the motions.
+In settings looks for `.vimrc` and enbale the key mapping for a `.vimrc` file.
 
 ## Shortcuts
 
