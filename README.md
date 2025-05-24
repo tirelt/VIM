@@ -87,5 +87,6 @@ tabnew # to make a new tab
 tabonly # clsoe everything but current tab
 closenew
 ctrl+w+T # to move a window to a new tab
+terminal # to open a terminal, ctrl+w+N to exit terminal mode 
 ```
 
