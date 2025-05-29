@@ -70,6 +70,8 @@ o,O # to insert a line below,above the cursor
 y #to copy as an operator, yy line, yw one word, y in virtual selection to copy selction
 :set # to set opctopns, e.g. 'ic' (ignore casre), 'is' partial match, 'hls' tpo highlight
 Ctrl+e # to show possible command, Tab to complete
+ctrl+o # to jump back to previous position, or in insert mode to execute one command
+ctrl+i # to jump back
 ```
 
 ## Comand mode `:`
